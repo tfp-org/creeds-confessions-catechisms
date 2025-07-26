@@ -8,3 +8,29 @@ body {
 .list-no-style {
     list-style-type: none;
 }
+
+/* color: #6c757d; */
+
+a {
+  text-decoration: none;
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+a:link, a:visited {
+  color: #007bff;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+a:active {
+  color: #004085;
+}
+
+a:focus {
+  outline: 2px solid #007bff;
+  outline-offset: 2px;
+}
